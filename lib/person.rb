@@ -15,6 +15,10 @@ class Person
     def job=(v)
         @job
     end
+
+    def job
+        @job
+    end
 end
 
 nick = Person.new
